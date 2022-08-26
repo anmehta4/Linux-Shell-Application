@@ -119,6 +119,7 @@ prompt> loop 10 somecommand
 the wish shell should run somecommand ten times.
 For example, if the user types echo hello as the command (to run the program /bin/echo , which just prints out whatever the arguments to it are), the shell should do this:
 
+```
 prompt> loop 5 echo hello
 hello
 hello
@@ -126,6 +127,7 @@ hello
 hello
 hello
 prompt>
+```
 
 To make this slightly more useful, there is one more feature you'll need to add, a loop variable. This variable is referred to by $loop . Thus, the user should then be able to do type:
 
