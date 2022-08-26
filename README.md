@@ -131,6 +131,7 @@ prompt>
 
 To make this slightly more useful, there is one more feature you'll need to add, a loop variable. This variable is referred to by $loop . Thus, the user should then be able to do type:
 
+```
 prompt> loop 5 echo hello $loop
 hello 1
 hello 2
@@ -138,4 +139,5 @@ hello 3
 hello 4
 hello 5
 prompt>
+```
 
